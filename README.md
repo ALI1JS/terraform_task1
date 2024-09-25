@@ -172,9 +172,8 @@
       ![plan output](images/terraform_plan.png)
 
       - apply command
-      
+
       ![aplly output](images/terraform_aplly.png)
 
  
   ## Thanks
-  ## You Can Contrbute 
