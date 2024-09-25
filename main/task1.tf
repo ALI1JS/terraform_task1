@@ -91,7 +91,7 @@ resource "aws_route_table" "private_route_table" {
 
   route {
     cidr_block = var.route_private_cider
-    nat_gateway_id = aws_nat_gateway.nat_gw.id  # To the NAT Gateway
+    nat_gateway_id = aws_nat_gateway.nat_gw.id 
   }
 
   tags = {
